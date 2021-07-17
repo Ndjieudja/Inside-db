@@ -1,0 +1,34 @@
+﻿									Fiat en date du 18/10/2020
+
+
+
+		Cahier de charge de l’application i	INSIDERDB 
+
+
+		Présentation :
+	
+	Insider est une application développe par Gabriel-hack, programme en langage de haut niveau python, conçu a titre d’exercice de fin d’apprentissage
+dans l’objectif de mettre a usage tout les outlis acquis jusqu’ici.
+
+	Ici il est question de présenter l’organisation hiérarchique de l’application afin que cette dernier soie ordonné, cohérente et stable.
+
+Grand titre.
+
+I-fichier Global.py
+« contient toutes les variable global(pour que celle inscrite dans ce  fichier soient accessible de partout des les scripts ou se module sera importe »                                       
+
+	global.py
+
+class Connect :
+	‘contient les variables nécessaire à la connexion au serveur posgresql
+qui est un serveur SGBD qui doit etre au préalable installer sur la machine destinatrice de l’application.
+
+	User =*******
+	dbname = ******
+	password = ******
+
+class Sgbd :
+	‘contient toutes les opération possible sur une base de donnée »
+
+	sg_dbnmae :
+	 
